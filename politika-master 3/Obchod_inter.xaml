@@ -1,0 +1,25 @@
+﻿<Page x:Class="game.Obchod_inter"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:game"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="Obchod_inter" Height="720" Width="1280">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="689*"/>
+        </Grid.RowDefinitions>
+        <Image Margin="-26,-18,0,-18" Stretch="Fill" Source="./fotky/obchod_inter.png" Grid.RowSpan="2"/>
+        <Button HorizontalAlignment="Left" Margin="581,131,0,0" Grid.Row="1" VerticalAlignment="Top" Height="177" Width="209">
+            <Image Height="177" Stretch="Fill" Source="./fotky/alenka.png" Width="199"/>
+        </Button>
+        <Button Click="Get_home" HorizontalAlignment="Left" VerticalAlignment="Top" Height="91" Width="96" Grid.RowSpan="2" Background="{x:Null}" BorderBrush="{x:Null}">
+            <Image Height="81" Source="/fotky/home_button.png" Stretch="Fill" Width="86"/>
+        </Button>
+
+    </Grid>
+</Page>
